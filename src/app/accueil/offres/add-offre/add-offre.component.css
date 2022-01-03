@@ -1,0 +1,16 @@
+.profile_image{
+  width: 230px;
+  height: 330px;
+  border-radius: 50%;
+  border: #A0C546 4px solid;
+}
+.submit{
+  font-weight: bold;
+  font-size: larger;
+  width: 35%;
+}
+.avatar {
+  position: relative;
+  left: 20%;
+  top: 5px;
+}

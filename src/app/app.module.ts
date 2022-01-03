@@ -11,6 +11,8 @@ import { AddBenneComponent } from './accueil/benne/add-benne/add-benne.component
 import { ListBenneComponent } from './accueil/benne/list-benne/list-benne.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import { SensibilisationComponent } from './accueil/sensibilisation/sensibilisation.component';
+import { AddOffreComponent } from './accueil/offres/add-offre/add-offre.component';
+import { ListOffreComponent } from './accueil/offres/list-offre/list-offre.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { SensibilisationComponent } from './accueil/sensibilisation/sensibilisat
     MapsComponent,
     AddBenneComponent,
     ListBenneComponent,
-    SensibilisationComponent
+    SensibilisationComponent,
+    AddOffreComponent,
+    ListOffreComponent
   ],
   imports: [
     BrowserModule,
